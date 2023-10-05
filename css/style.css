@@ -16,17 +16,26 @@ COMMON--------
 --------------
 */
 
-/*
---------------
-DEBUG---------
---------------
-*/
+
+body {
+    padding-top: 60px;
+/*-- debug --*/
+    background-color: rgb(154, 206, 81);
+}
 
 /*
 --------------
 HEADER--------
 --------------
 */
+header .head-box {
+    background-color: black;
+    height: 60px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+}
 
 /*
 --------------
@@ -34,8 +43,44 @@ MAIN---------
 --------------
 */
 
+.container-users {
+    max-width: 1750px;
+    margin: 0 auto;
+    display: flex;
+    gap: 15px 6px;
+    flex-wrap: wrap;
+    align-items: center;
+/*-- debug --*/
+    background-color: rgb(216, 74, 221);
+}
+
+main {
+    overflow-y: auto;
+}
+.utente{
+    width: calc(( 100% - 36px ) / 7);
+    background-color: aliceblue;
+    border: 2px dashed black;
+    align-items: flex-start;
+}
+
+.utente img {
+    width: 100%;
+    display: block;
+}
+
 /*
 --------------
 FOOTER--------
 --------------
 */
+
+footer {
+    background-color: bisque;
+    height: 90px;
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    left:0;
+    width: 100%;
+}
