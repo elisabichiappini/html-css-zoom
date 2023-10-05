@@ -19,10 +19,15 @@ COMMON--------
 
 body {
     padding-top: 60px;
+    font-family: Arial, Helvetica, sans-serif;
 /*-- debug --*/
     background-color: rgb(154, 206, 81);
 }
 
+strong {
+    font-weight: normal;
+    margin-left: 5px;
+}
 /*
 --------------
 HEADER--------
@@ -47,9 +52,11 @@ MAIN---------
     max-width: 1750px;
     margin: 0 auto;
     display: flex;
+    flex-direction: row;
     gap: 15px 6px;
     flex-wrap: wrap;
     align-items: center;
+    justify-content: center;
 /*-- debug --*/
     background-color: rgb(216, 74, 221);
 }
@@ -62,6 +69,17 @@ main {
     background-color: aliceblue;
     border: 2px dashed black;
     align-items: flex-start;
+    position: relative;
+}
+.naming {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    display: inline-block;
+
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    padding: 3px 15px;
 }
 
 .utente img {
