@@ -16,18 +16,12 @@ COMMON--------
 --------------
 */
 
-
 body {
     padding-top: 60px;
     font-family: Arial, Helvetica, sans-serif;
     background-color: rgb(0, 0, 0);
     color: white;
     width: 100vh;
-}
-
-strong {
-    font-weight: lighter;
-    margin-left: 5px;
 }
 
 ul {
@@ -55,9 +49,7 @@ header {
     left: 0;
     right: 0;
     z-index: 99;
-
 }
-
 
 .btn {
     all: unset;
@@ -76,19 +68,34 @@ MAIN---------
 */
 
 main {
-    height: calc((100% - 50px - 80px));
+    height: calc((100% - 130px));
+    overflow-y: auto;
+    padding-bottom: 100px;
 }
-.container-users {
-    max-width: 90%;
-    margin: 0 auto;
+
+.users {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
     }
 
-.utente{
-    min-width: calc( 100% / 7 - 15px);
+.user {
+    width: 250px;
+    height: 145px;
     background-color: rgb(0, 0, 0);
     position: relative;
-    float: left;
     margin: 15px 6px;
+}
+
+.person-info img {
+    width: 100%;
+    display: block;
+    padding: 3px;
+    border-radius: 8px;
+}
+
+.person-info {
+    position: relative;
 }
 .naming {
     position: absolute;
@@ -99,17 +106,7 @@ main {
     padding: 5px;
 }
 
-.utente img {
-    width: 100%;
-    display: block;
-    padding: 3px 
-}
 
-.clearfix::after {
-    clear: both;
-    content: "";
-    display: block;
-}
 /*
 --------------
 FOOTER--------
