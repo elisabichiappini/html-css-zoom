@@ -21,7 +21,7 @@ body {
     font-family: Arial, Helvetica, sans-serif;
     background-color: rgb(0, 0, 0);
     color: white;
-    width: 100vh;
+    height: 100vh;
 }
 
 ul {
@@ -33,7 +33,6 @@ h5 {
     font-weight: normal;
     margin: 0 10px;
 }
-
 
 /*
 --------------
