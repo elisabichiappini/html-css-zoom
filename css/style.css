@@ -73,7 +73,7 @@ main {
 }
 
 .utente{
-    min-width: calc(( 100% / 7) - 15px);
+    min-width: calc( 100% / 7 - 15px);
     background-color: aliceblue;
     position: relative;
     float: left;
@@ -93,6 +93,11 @@ main {
     padding: 3px 
 }
 
+.clearfix::after {
+    clear: both;
+    content: "";
+    display: block;
+}
 /*
 --------------
 FOOTER--------
