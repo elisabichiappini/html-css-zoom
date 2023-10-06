@@ -20,13 +20,12 @@ COMMON--------
 body {
     padding-top: 60px;
     font-family: Arial, Helvetica, sans-serif;
-
     background-color: rgb(0, 0, 0);
     color: white;
 }
 
 strong {
-    font-weight: normal;
+    font-weight: lighter;
     margin-left: 5px;
 }
 
@@ -35,6 +34,10 @@ ul {
     display: flex;
 }
 
+h5 {
+    font-weight: normal;
+    margin: 0 10px;
+}
 /*
 --------------
 HEADER--------
@@ -42,12 +45,34 @@ HEADER--------
 */
 header .head-box {
     background-color: black;
-    height: 60px;
+    padding: 10px 0;
     position: fixed;
     top: 0;
     left: 0;
     right: 0;
+    text-align: end;
 }
+
+
+.top-header {
+    display: flex;
+    align-items: end;
+    flex-direction: row;
+    align-items: center;
+    justify-content: end;
+    background-color: aliceblue;
+    display: inline-block;
+}
+
+
+
+button[type="button"] {
+    all: unset;
+    background-color: #4a4a4a;
+    padding: 0 4px;
+    cursor: pointer;
+}
+
 
 /*
 --------------
@@ -119,8 +144,9 @@ footer .button {
     background-color: #4a4a4a;
     color: red;
     display: inline-block;
-    padding: 40px;
+    padding: 40px 20px;
     cursor: pointer;
+    text-align: center;
 }
 
 h5 {
