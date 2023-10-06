@@ -67,36 +67,40 @@ MAIN---------
 --------------
 */
 
-main {
-    height: calc((100% - 130px));
+.main {
+    height: calc(100% - 130px);
     overflow-y: auto;
+}
+.container {
     padding-bottom: 100px;
+    width: 90%;
+    margin: 0 auto;
 }
 
 .users {
     display: flex;
-    flex-wrap: wrap;
     justify-content: center;
-    }
-
-.user {
-    width: 250px;
-    height: 145px;
-    background-color: rgb(0, 0, 0);
-    position: relative;
-    margin: 15px 6px;
+    align-items: flex-start;
+    flex-wrap: wrap;
 }
 
-.person-info img {
-    width: 100%;
-    display: block;
-    padding: 3px;
-    border-radius: 8px;
+.utente {
+    width: 250px;
+    padding: 10px 3px;
+
 }
 
 .person-info {
     position: relative;
 }
+
+.person-info  img {
+    width: 100%;
+    display: block;
+    border-radius: 7px;
+
+}
+
 .naming {
     position: absolute;
     bottom: 0;
@@ -104,7 +108,63 @@ main {
     display: inline-block;
     background-color: rgba(0, 0, 0, 0.5);
     padding: 5px;
+    font-size: 14px;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 /*
