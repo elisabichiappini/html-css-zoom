@@ -112,12 +112,11 @@ footer {
 footer .video,
 footer .button {
     width: 250px;
-    background-color: antiquewhite;
 
 }
 
 footer .button {
-    /* background-color: #4a4a4a; */
+    background-color: #4a4a4a;
     color: red;
     display: inline-block;
     padding: 40px;
@@ -126,19 +125,19 @@ footer .button {
 
 h5 {
     font-size: 18px;
-    background-color: blue;
+
     display: inline-block;
 }
 
 .icone > i{
-    background-color: pink;
+
     margin-bottom: 5px;
 }
 
 .icone {
     padding: 15px 10px;
     display: inline-block;
-    background-color: green;
+
     font-size: 40px;
     text-align: center;
     display: flex;
