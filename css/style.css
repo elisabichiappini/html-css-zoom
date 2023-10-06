@@ -112,60 +112,6 @@ MAIN---------
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /*
 --------------
 FOOTER--------
@@ -176,37 +122,29 @@ footer {
     position: fixed;
     bottom: 0;
     right: 0;
-    left:0;
-    width: 100%;
+    left: 0;
+    height: 80px;
     background-color: #222222;
-    padding: 10px 0;
 }
 
 .navfooter {
     display: flex;
-    align-items: flex-start;
+    align-items: center;
     justify-content: space-between;
 }
 
-
 footer .video,
 footer .button {
-    width: 250px;
-
+    width: 20%;
+    background-color: rgb(140, 94, 34);
 }
 
-footer .button {
-    background-color: #4a4a4a;
-    color: red;
-    display: inline-block;
-    padding: 40px 20px;
-    cursor: pointer;
-    text-align: center;
+footer .setting {
+    padding-left: 10px;
 }
 
 h5 {
-    font-size: 18px;
-    display: inline-block;
+    font-size: 14px;
 }
 
 .icone > i{
@@ -216,7 +154,7 @@ h5 {
 .icone {
     padding: 15px 10px;
     display: inline-block;
-    font-size: 40px;
+    font-size: 22px;
     text-align: center;
     display: flex;
     flex-direction: column;
@@ -228,4 +166,20 @@ h5 {
 .icone .arrow {
     font-size: 15px;
     line-height: 50px;
+}
+
+.end-meet {
+    display: flex;
+    justify-content: right;  
+}
+
+.btn2  {
+    all: unset;
+    display: inline-block;
+    height: 100%;
+    cursor: pointer;
+    background-color: #4a4a4a;
+    color: red;
+
+   
 }
