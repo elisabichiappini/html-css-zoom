@@ -130,8 +130,9 @@ h5 {
     display: inline-block;
 }
 
-li > i{
+.icone > i{
     background-color: pink;
+    margin-bottom: 5px;
 }
 
 .icone {
@@ -142,5 +143,4 @@ li > i{
     text-align: center;
     display: flex;
     flex-direction: column;
-
 }
