@@ -117,7 +117,7 @@ footer .button {
 }
 
 footer .button {
-    background-color: #4a4a4a;
+    /* background-color: #4a4a4a; */
     color: red;
     display: inline-block;
     padding: 40px;
@@ -130,8 +130,17 @@ h5 {
     display: inline-block;
 }
 
-ul i {
+li > i{
+    background-color: pink;
+}
+
+.icone {
+    padding: 15px 10px;
+    display: inline-block;
+    background-color: green;
     font-size: 40px;
     text-align: center;
-    background-color: pink;
+    display: flex;
+    flex-direction: column;
+
 }
